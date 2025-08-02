@@ -1,0 +1,93 @@
+/* Daily problem component container */
+.daily-problem {
+  max-width: 600px;
+  margin: 0 auto;
+  color: #ffff
+}
+
+/* Daily problem header section */
+.daily-problem-header {
+  text-align: center;
+}
+
+/* Problem card container */
+.problem-card {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  background-color: #2b2e33;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.problem-card:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Problem header (ID and difficulty) */
+.problem-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.problem-id {
+  font-weight: bold;
+}
+
+.difficulty-badge {
+  color: white;
+  padding: 5px 10px;
+}
+
+/* Problem title */
+.problem-title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+/* Problem category section */
+.problem-category {
+  margin-bottom: 20px;
+}
+
+/* Problem actions area (buttons) */
+.problem-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* LeetCode button */
+.leetcode-button {
+  padding: 10px 20px;
+  background: #ff6b35;
+  color: white;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.leetcode-button:hover {
+  background: #ff6b35;
+  transform: scale(1.05);
+  color: white;
+}
+
+/* Premium badge */
+.premium-badge {
+  background: #ffd700;
+  padding: 5px 10px;
+} 
+
+.refresh-button {
+  padding: 10px 20px;
+  background: #3a4086;
+  color: white;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.refresh-button:hover {
+  background: #bbbcff;
+  transform: scale(1.05);
+  color: white;
+}

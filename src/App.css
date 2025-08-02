@@ -1,0 +1,84 @@
+/* Main app container */
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* App header section */
+.app-header {
+  padding: 20px;
+  text-align: center;
+  background-color: #2b2e33;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.header-content h1 {
+  padding-top: 20px;
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
+  margin: 0 0 10px 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-content p {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0;
+  font-weight: 400;
+}
+
+/* Main content area */
+.app-main {
+  padding: 20px;
+  flex: 1;
+}
+
+/* Daily problem section container */
+.daily-section {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Daily actions area (next button) */
+.daily-actions {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* App footer */
+.app-footer {
+  padding: 20px;
+  text-align: center;
+  margin-top: auto;
+}
+
+.app-footer p {
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .header-content h1 {
+    font-size: 2rem;
+  }
+  
+  .header-content p {
+    font-size: 1rem;
+  }
+  
+  .app-main {
+    padding: 20px 0;
+  }
+  
+  .daily-actions {
+    margin-bottom: 20px;
+  }
+  
+  .refresh-button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}

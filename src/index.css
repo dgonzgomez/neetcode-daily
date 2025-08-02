@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Main body styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1b1e22;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Global link styling for all links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
