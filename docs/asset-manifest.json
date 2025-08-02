@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/neetcode-daily/static/css/main.fbe21a16.css",
+    "main.js": "/neetcode-daily/static/js/main.7df22127.js",
+    "static/js/453.011143e5.chunk.js": "/neetcode-daily/static/js/453.011143e5.chunk.js",
+    "index.html": "/neetcode-daily/index.html",
+    "main.fbe21a16.css.map": "/neetcode-daily/static/css/main.fbe21a16.css.map",
+    "main.7df22127.js.map": "/neetcode-daily/static/js/main.7df22127.js.map",
+    "453.011143e5.chunk.js.map": "/neetcode-daily/static/js/453.011143e5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fbe21a16.css",
+    "static/js/main.7df22127.js"
+  ]
+}
