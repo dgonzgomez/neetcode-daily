@@ -2,6 +2,7 @@
   "name": "neetcode-daily",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://dgonzgomez.github.io/neetcode-daily",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.6.4",
